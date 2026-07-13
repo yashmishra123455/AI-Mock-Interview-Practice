@@ -1,16 +1,62 @@
-# React + Vite
+#  AI Mock Interview Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered mock interview platform that helps users prepare for technical interviews by generating role-specific questions and providing instant AI feedback on their answers.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎯 Role-based interview questions (Data Analyst, Data Scientist, Cybersecurity, etc.)
+- 📚 Difficulty levels: Beginner, Intermediate, Advanced
+- 🤖 AI-generated interview questions
+- ✅ Instant answer evaluation and feedback
+- 📊 Performance analysis and scoring
+- 🎨 Clean and responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Google Gemini API
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/yourusername/AI-Mock-Interview.git
+cd AI-Mock-Interview
+npm install
+npm run dev
+```
+
+Create a `.env.local` file:
+
+```env
+GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+## 📸 Workflow
+
+```
+Select Role
+      ↓
+Choose Difficulty
+      ↓
+Generate AI Questions
+      ↓
+Answer Questions
+      ↓
+Get AI Feedback & Score
+```
+
+## 🌟 Future Improvements
+
+- Voice-based interviews
+- Resume-based questions
+- Interview history
+- PDF report generation
+
+## 👨‍💻 Author
+
+**Yash Mishra**
+
+⭐ If you like this project, don't forget to star the repository!
